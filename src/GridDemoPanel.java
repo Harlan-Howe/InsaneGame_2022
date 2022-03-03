@@ -195,9 +195,7 @@ public class GridDemoPanel extends JPanel implements MouseListener
 		// TODO Auto-generated method stub
 		// mouse location is at e.getX() , e.getY().
 		// if you wish to convert to the rows and columns, you can integer-divide by the cell size.
-		int col = e.getX()/Cell.CELL_SIZE;
-		int row = e.getY()/Cell.CELL_SIZE;
-		userClickedCell(row,col);
+
 		
 		
 	}
@@ -217,7 +215,9 @@ public class GridDemoPanel extends JPanel implements MouseListener
 		// TODO Auto-generated method stub
 		// mouse location is at e.getX() , e.getY().
 		// if you wish to convert to the rows and columns, you can integer-divide by the cell size.
-		
+		int col = e.getX()/Cell.CELL_SIZE;
+		int row = e.getY()/Cell.CELL_SIZE;
+		userClickedCell(row,col);
 	}
 
 	@Override
