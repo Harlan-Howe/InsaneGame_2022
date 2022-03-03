@@ -155,7 +155,7 @@ public class GridDemoPanel extends JPanel implements MouseListener
 		
 		
 		// ------------------------------
-		return 0; // TODO: you'll probably want to change this....
+		return -1; // TODO: you'll probably want to change this....
 	}
 	
 	/**
