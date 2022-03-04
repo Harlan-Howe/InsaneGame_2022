@@ -152,7 +152,13 @@ public class GridDemoPanel extends JPanel implements MouseListener
 	{
 		// -----------------------------
 		// TODO: fill in this method!
-		
+		// Hint: consider your base cases -- under what circumstances would a
+		// combination of (row, col, colorID) lead to not wanting to continue
+		// recursing?
+
+		// suggestion: when checking your neighbors, call the recursion on all
+		//  four (N, S, E, W) regardless of their state, and let their base
+		//  cases sort out whether to return quickly.
 		
 		// ------------------------------
 		return -1; // TODO: you'll probably want to change this....
